@@ -1,4 +1,4 @@
-# 🖧 NC-C2 — Netcat-Style Command & Control Framework
+# NC-C2 — Netcat-Style Command & Control Framework
 
 A lightweight Python C2 framework built on raw TCP sockets — netcat-compatible, multi-session, with an interactive shell and file transfer over the same channel.
 
@@ -120,15 +120,3 @@ nc 127.0.0.1 4444
 ```
 
 > Note: netcat sessions won't support the `<<END>>` delimiter protocol, so use `interact` with actual `client.py` agents for full functionality.
-
----
-
-## ⚠️ Legal Notice
-
-This tool is intended for authorized penetration testing, CTF challenges, and educational use only. Do not deploy on systems you do not own or have explicit written permission to test. Unauthorized access to computer systems is illegal.
-
----
-
-## License
-
-MIT
